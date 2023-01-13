@@ -1,0 +1,34 @@
+.container {
+
+    .unauthorized {
+        display: flex;
+        align-items: center;
+        padding-top: 160px;
+        flex-direction: column;
+
+        .home-header {
+            text-align: center;
+            color: white;
+            text-shadow: 3px 3px 20px #ff99cc, -2px 1px 30px #ff99cc;
+        }
+    
+        .btn {
+    
+            &.btn-primary {
+                margin-top: 20px;
+                width: 100px;
+    
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    
+        .home-if-not-register {
+            margin-top: 20px;
+            color: white;
+            opacity: 0.95;
+        }
+    }
+}
